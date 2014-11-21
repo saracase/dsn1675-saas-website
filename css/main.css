@@ -14,3 +14,238 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+        
+    .masthead {
+        text-align: left;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
+    
+    .form-spacing {
+        padding: 0 10em 0 10em;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:active {
+    outline: none;
+}
+
+a:focus {
+    outline: 3px solid #000;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.masthead {
+  background-color: #edecec;
+  overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.nav {
+    margin: 0;
+    padding: 1em 0;
+    list-style-type: none;
+    background-color: #edecec;
+}
+
+.nav li {
+    border-top: 0;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #000;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:visited {
+  background-color: #e94647;
+
+  color: #fff;
+}
+
+.intro {
+    background-color: #e2e2e2;
+    text-align: center;
+    font-weight: normal;
+}
+
+.index-image-background {
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+.table-colour {
+  background-color: #e2e2e2;
+  overflow: hidden;
+}
+
+.forms {
+    background-color: #e2e2e2;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.center {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+button {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #e94647;
+    color: #fff;
+    padding: 0 0.3em;
+    cursor: pointer;
+    margin: 1em;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-boxes {
+    width: 100%;
+    height: 3em;
+    border: #e2e2e2;
+}
+
+textarea {
+    width: 100%;
+    height: 18em;
+    border: none;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.logo {
+    width: 7rem;
+    height: auto;
+    float: left;
+    margin: .25rem 1%;
+}
+
+.billboard {
+    background-image: url(../images/speaker.jpeg);
+    overflow: hidden;
+    background-size: 70rem;
+    padding: 18rem 5%;
+    background-position: center bottom;
+    position: relative;
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .nav {
+        text-align: center;
+    }
+
+    .nav li {
+        display: inline-block;
+    }
+    
+    .masthead {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+    
+  .title,
+  .nav {
+    text-align: left;
+   }
+    
+    .masthead {
+        text-align: left;
+    }
+    
+    .nav-footer {
+        text-align: right;
+    }
+}
+
+.form-spacing {
+    padding: 0 1.5em 0 1.5em;
+}
+}
