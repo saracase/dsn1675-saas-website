@@ -144,13 +144,20 @@ a:focus {
   overflow: hidden;
 }
 
-.table-colour {
-  background-color: #e2e2e2;
-  overflow: hidden;
+.para1 {
+    background-color: #e4e5e6;
+}
+
+.para2 {
+    background-color: #d1d1d2;
 }
 
 .forms {
-    background-color: #e2e2e2;
+    background-color: #c1c0c0;
+}
+
+.center {
+    text-align: center;
 }
 
 label {
@@ -161,16 +168,10 @@ input + label {
     display: inline-block;
 }
 
-.center {
-    background-color: #e2e2e2;
-    text-align: center;
-}
-
 button {
     font-size: 1.5em;
     font-family: sans-serif;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: none;
     background: #e94647;
     color: #fff;
     padding: 0 0.3em;
@@ -178,31 +179,16 @@ button {
     margin: 1em;
 }
 
-fieldset {
-    border: none;
-}
-
 .input-boxes {
     width: 100%;
     height: 3em;
-    border: #e2e2e2;
+    border: #000;
 }
 
 textarea {
     width: 100%;
     height: 18em;
     border: none;
-}
-
-.radio {
-    white-space: nowrap;
-}
-
-.logo {
-    width: 7rem;
-    height: auto;
-    float: left;
-    margin: .25rem 1%;
 }
 
 .billboard {
