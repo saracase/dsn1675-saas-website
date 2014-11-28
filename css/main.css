@@ -196,7 +196,7 @@ textarea {
     overflow: hidden;
     background-size: 70rem;
     padding: 18rem 5%;
-    background-position: center bottom;
+    background-position: center;
     position: relative;
 }
 
@@ -242,6 +242,8 @@ textarea {
         text-align: center;
     }
     
+    .billboard {
+        
 }
 
 @media only screen and (min-width: 38em) {
@@ -264,5 +266,4 @@ textarea {
 
 .form-spacing {
     padding: 0 1.5em 0 1.5em;
-}
 }
