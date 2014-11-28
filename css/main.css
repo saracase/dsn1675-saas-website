@@ -194,10 +194,9 @@ textarea {
 .billboard {
     background-image: url(../images/speaker.jpeg);
     overflow: hidden;
-    background-size: 70rem;
-    padding: 18rem 5%;
+    background-size: 100em;
+    padding: 7em 0 7em 0;
     background-position: center;
-    position: relative;
     background-repeat: no-repeat;
 }
 

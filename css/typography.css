@@ -143,8 +143,17 @@ sub {
   padding-right: 3.0000rem;
 }
 
-h1, h2, h3, h4, h5, h6,
-.brand-family {
+h1 {
+    font-family: "Raleway", sans-serif;
+    color: #e94647;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    color: #e94647;
+}
+
+h3 {
     font-family: "Raleway", sans-serif;
     color: #e94647;
 }
