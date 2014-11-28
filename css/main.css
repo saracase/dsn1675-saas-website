@@ -204,7 +204,11 @@ textarea {
     color: #e94647;
     background-color:rgba(255, 255, 255, .5);
     padding: 1.25rem 5%;
-}    
+}
+
+.playlist {
+    width: 5em;
+}
 
 
 @media only screen and (min-width: 25em) {
