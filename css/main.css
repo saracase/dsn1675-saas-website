@@ -28,10 +28,6 @@ html {
     .nav-footer {
         text-align: right;
     }
-    
-    .form-spacing {
-        padding: 0 10em 0 10em;
-    }
 }
 
 @media only screen and (min-width: 90em) {
@@ -152,8 +148,16 @@ a:focus {
     background-color: #d1d1d2;
 }
 
-.forms {
-    background-color: #c1c0c0;
+.para3 {
+     background-color:#c1c0c0;
+}
+
+.para4 {
+    background-color:#9d9e9e;
+}     
+
+.para5 {
+    background-color: #414242;
 }
 
 .center {
@@ -177,6 +181,7 @@ button {
     padding: 0 0.3em;
     cursor: pointer;
     margin: 1em;
+    border-radius: 0.5em;
 }
 
 .input-boxes {
@@ -218,13 +223,17 @@ textarea {
     width: 5em;
 }
 
+.email {
+    width: 5em;
+}
+
 .text-align {
     text-align: center;
 }
 
 .logo {
     width: 7rem;
-    margin: .25rem 1%;
+    margin: 0 auto;
     display: block;
 }
 
@@ -232,8 +241,13 @@ textarea {
     width: 100%
 }
 
-.credit-info {
-    background-color: #414242;
+.prices {
+    border: 3px solid #e94647;
+}
+
+ul {
+    list-style: none;
+   font-family: "Raleway", sans-serif;
 }
     
     
@@ -249,10 +263,7 @@ textarea {
     
     .masthead {
         text-align: center;
-    }
-    
-    .billboard {
-        
+    }   
 }
 
 @media only screen and (min-width: 38em) {
@@ -268,5 +279,8 @@ textarea {
     
     .nav-footer {
         text-align: right;
-} 
+}
+    .logo {
+        margin: .25rem 1%;
+}
 }
