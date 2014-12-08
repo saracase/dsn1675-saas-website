@@ -196,21 +196,6 @@ textarea {
     border: none;
 }
 
-.billboard {
-    background-image: url(../images/speaker.jpeg);
-    overflow: hidden;
-    background-size: 100em;
-    padding: 7em 0 7em 0;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.billboard-title {
-    color: #e94647;
-    background-color:rgba(255, 255, 255, .5);
-    padding: 1.25rem 5%;
-}
-
 .playlist {
     width: 5em;
 }
@@ -259,7 +244,17 @@ ul {
     
     .masthead {
         text-align: center;
-    }   
+    }
+    
+    .banner {
+        text-align: center;
+    }
+    
+    .banner-img {
+       padding-top: 56.25%;
+       background-image: url(../images/billboard.jpg);
+       background-size: cover;
+    }      
 }
 
 @media only screen and (min-width: 38em) {
