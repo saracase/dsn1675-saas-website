@@ -146,18 +146,21 @@ a:focus {
 
 .para2 {
     background-color: #d1d1d2;
+    text-align: center;
 }
 
 .para3 {
      background-color:#c1c0c0;
+     text-align: center;
 }
 
 .para4 {
-    background-color:#9d9e9e;
+    text-align: center;
 }     
 
 .para5 {
     background-color: #414242;
+    text-align: center;
 }
 
 .center {
