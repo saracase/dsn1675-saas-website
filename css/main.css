@@ -135,13 +135,9 @@ a:focus {
     font-weight: normal;
 }
 
-.index-image-background {
-  background-color: #efefef;
-  overflow: hidden;
-}
-
 .para1 {
     background-color: #e4e5e6;
+    text-align: center;
 }
 
 .para2 {
@@ -155,6 +151,7 @@ a:focus {
 }
 
 .para4 {
+    background-color:#9d9e9e;
     text-align: center;
 }     
 
@@ -231,9 +228,16 @@ textarea {
 
 ul {
     list-style: none;
-   font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
-    
+
+.border {
+    border-right-style: solid #e94647;
+}
+
+.promo {
+    margin: 0 4em 0;
+}
     
 @media only screen and (min-width: 25em) {
     
@@ -256,6 +260,12 @@ ul {
     .banner-img {
        padding-top: 56.25%;
        background-image: url(../images/billboard.jpg);
+       background-size: cover;
+    }
+    
+    .banner-img2 {
+       padding-top: 56.25%;
+       background-image: url(../images/billboard-prices.jpg);
        background-size: cover;
     }      
 }
